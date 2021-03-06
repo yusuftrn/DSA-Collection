@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		884B4B7F25ED901A00DBED1C /* distribute_candies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B4B7E25ED901A00DBED1C /* distribute_candies.swift */; };
 		885419E625EAE1E500481CD9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885419E525EAE1E500481CD9 /* main.swift */; };
 		885419F025EAE23800481CD9 /* remove_duplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885419EF25EAE23800481CD9 /* remove_duplicates.swift */; };
 		885419F625EAE44500481CD9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885419F525EAE44500481CD9 /* Helper.swift */; };
@@ -19,6 +20,28 @@
 		88541A0B25EAE6FD00481CD9 /* move_zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88541A0A25EAE6FD00481CD9 /* move_zeroes.swift */; };
 		88541A0E25EAE71900481CD9 /* two_sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88541A0D25EAE71900481CD9 /* two_sum.swift */; };
 		88541A1125EAE77600481CD9 /* rotate_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88541A1025EAE77600481CD9 /* rotate_image.swift */; };
+		8859B75525F26ED600FE48A9 /* average_of_levels_in_binarytree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8859B75425F26ED600FE48A9 /* average_of_levels_in_binarytree.swift */; };
+		8859B75925F2742D00FE48A9 /* longest_substr_without_repeating_characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8859B75825F2742D00FE48A9 /* longest_substr_without_repeating_characters.swift */; };
+		88912A1F25EE3789005D6323 /* set_mismatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88912A1E25EE3789005D6323 /* set_mismatch.swift */; };
+		88912A2225EE3B63005D6323 /* longest_common_prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88912A2125EE3B63005D6323 /* longest_common_prefix.swift */; };
+		88912A2525EE4321005D6323 /* count_and_say.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88912A2425EE4321005D6323 /* count_and_say.swift */; };
+		88912A2A25EE6624005D6323 /* delete_node_in_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88912A2925EE6624005D6323 /* delete_node_in_list.swift */; };
+		889F4CEE25EBC4DC00B8010A /* reverse_string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F4CED25EBC4DC00B8010A /* reverse_string.swift */; };
+		889F4CF225EBC4FB00B8010A /* reverse_integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F4CF125EBC4FB00B8010A /* reverse_integer.swift */; };
+		889F4CF525EBC51100B8010A /* first_unique_character_in_string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F4CF425EBC51100B8010A /* first_unique_character_in_string.swift */; };
+		889F4CF925EBC6F400B8010A /* valid_palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F4CF825EBC6F400B8010A /* valid_palindrome.swift */; };
+		889F4CFC25EBC71F00B8010A /* valid_anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F4CFB25EBC71F00B8010A /* valid_anagram.swift */; };
+		889F4CFF25EBEA6C00B8010A /* string_to_integer_atoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F4CFE25EBEA6C00B8010A /* string_to_integer_atoi.swift */; };
+		889F4D0225EBEF0B00B8010A /* implement_strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F4D0125EBEF0B00B8010A /* implement_strStr.swift */; };
+		889F4D0625EC2B5200B8010A /* merge_sorted_array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F4D0525EC2B5200B8010A /* merge_sorted_array.swift */; };
+		88B18D1225EEB7C9002A5A8A /* set_matrix_zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B18D1125EEB7C9002A5A8A /* set_matrix_zeroes.swift */; };
+		88B18D1525EEBFC4002A5A8A /* group_anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B18D1425EEBFC4002A5A8A /* group_anagrams.swift */; };
+		88C7732325F2A78F0042A3C3 /* increasing_triplet_sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C7732225F2A78F0042A3C3 /* increasing_triplet_sequence.swift */; };
+		88C7732825F2B0680042A3C3 /* add_two_numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C7732725F2B0680042A3C3 /* add_two_numbers.swift */; };
+		88F7668325F1591D0009082A /* longest_palindromic_ substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7668225F1591D0009082A /* longest_palindromic_ substring.swift */; };
+		88F7668625F16B770009082A /* get_intersect_two_linked_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7668525F16B770009082A /* get_intersect_two_linked_list.swift */; };
+		88F7668925F1839E0009082A /* missing_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7668825F1839E0009082A /* missing_number.swift */; };
+		88F7668C25F187540009082A /* remove_nth_node_from_end.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7668B25F187540009082A /* remove_nth_node_from_end.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		884B4B7E25ED901A00DBED1C /* distribute_candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distribute_candies.swift; sourceTree = "<group>"; };
 		885419E225EAE1E500481CD9 /* leetcode-interview-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-interview-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		885419E525EAE1E500481CD9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		885419EF25EAE23800481CD9 /* remove_duplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remove_duplicates.swift; sourceTree = "<group>"; };
@@ -47,6 +71,28 @@
 		88541A0A25EAE6FD00481CD9 /* move_zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = move_zeroes.swift; sourceTree = "<group>"; };
 		88541A0D25EAE71900481CD9 /* two_sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = two_sum.swift; sourceTree = "<group>"; };
 		88541A1025EAE77600481CD9 /* rotate_image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotate_image.swift; sourceTree = "<group>"; };
+		8859B75425F26ED600FE48A9 /* average_of_levels_in_binarytree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = average_of_levels_in_binarytree.swift; sourceTree = "<group>"; };
+		8859B75825F2742D00FE48A9 /* longest_substr_without_repeating_characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longest_substr_without_repeating_characters.swift; sourceTree = "<group>"; };
+		88912A1E25EE3789005D6323 /* set_mismatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = set_mismatch.swift; sourceTree = "<group>"; };
+		88912A2125EE3B63005D6323 /* longest_common_prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longest_common_prefix.swift; sourceTree = "<group>"; };
+		88912A2425EE4321005D6323 /* count_and_say.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count_and_say.swift; sourceTree = "<group>"; };
+		88912A2925EE6624005D6323 /* delete_node_in_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delete_node_in_list.swift; sourceTree = "<group>"; };
+		889F4CED25EBC4DC00B8010A /* reverse_string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverse_string.swift; sourceTree = "<group>"; };
+		889F4CF125EBC4FB00B8010A /* reverse_integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverse_integer.swift; sourceTree = "<group>"; };
+		889F4CF425EBC51100B8010A /* first_unique_character_in_string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_unique_character_in_string.swift; sourceTree = "<group>"; };
+		889F4CF825EBC6F400B8010A /* valid_palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valid_palindrome.swift; sourceTree = "<group>"; };
+		889F4CFB25EBC71F00B8010A /* valid_anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valid_anagram.swift; sourceTree = "<group>"; };
+		889F4CFE25EBEA6C00B8010A /* string_to_integer_atoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = string_to_integer_atoi.swift; sourceTree = "<group>"; };
+		889F4D0125EBEF0B00B8010A /* implement_strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = implement_strStr.swift; sourceTree = "<group>"; };
+		889F4D0525EC2B5200B8010A /* merge_sorted_array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge_sorted_array.swift; sourceTree = "<group>"; };
+		88B18D1125EEB7C9002A5A8A /* set_matrix_zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = set_matrix_zeroes.swift; sourceTree = "<group>"; };
+		88B18D1425EEBFC4002A5A8A /* group_anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = group_anagrams.swift; sourceTree = "<group>"; };
+		88C7732225F2A78F0042A3C3 /* increasing_triplet_sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = increasing_triplet_sequence.swift; sourceTree = "<group>"; };
+		88C7732725F2B0680042A3C3 /* add_two_numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add_two_numbers.swift; sourceTree = "<group>"; };
+		88F7668225F1591D0009082A /* longest_palindromic_ substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "longest_palindromic_ substring.swift"; sourceTree = "<group>"; };
+		88F7668525F16B770009082A /* get_intersect_two_linked_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = get_intersect_two_linked_list.swift; sourceTree = "<group>"; };
+		88F7668825F1839E0009082A /* missing_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = missing_number.swift; sourceTree = "<group>"; };
+		88F7668B25F187540009082A /* remove_nth_node_from_end.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remove_nth_node_from_end.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +106,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		884B4B7D25ED8FFE00DBED1C /* MarchChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				884B4B7E25ED901A00DBED1C /* distribute_candies.swift */,
+				88912A1E25EE3789005D6323 /* set_mismatch.swift */,
+				88F7668525F16B770009082A /* get_intersect_two_linked_list.swift */,
+				88F7668825F1839E0009082A /* missing_number.swift */,
+				8859B75425F26ED600FE48A9 /* average_of_levels_in_binarytree.swift */,
+			);
+			path = MarchChallenge;
+			sourceTree = "<group>";
+		};
 		885419D925EAE1E500481CD9 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +137,8 @@
 		885419E425EAE1E500481CD9 /* leetcode-interview-swift */ = {
 			isa = PBXGroup;
 			children = (
+				88B18D0F25EEB7AA002A5A8A /* Medium */,
+				884B4B7D25ED8FFE00DBED1C /* MarchChallenge */,
 				885419ED25EAE21600481CD9 /* Easy */,
 				885419E525EAE1E500481CD9 /* main.swift */,
 				885419F525EAE44500481CD9 /* Helper.swift */,
@@ -89,6 +149,9 @@
 		885419ED25EAE21600481CD9 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				88912A2825EE660B005D6323 /* LinkedList */,
+				889F4D0425EC2B4500B8010A /* Sorting */,
+				889F4CEC25EBC4C300B8010A /* Strings */,
 				885419EE25EAE21E00481CD9 /* Array */,
 			);
 			path = Easy;
@@ -109,6 +172,68 @@
 				88541A1025EAE77600481CD9 /* rotate_image.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		88912A2825EE660B005D6323 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				88912A2925EE6624005D6323 /* delete_node_in_list.swift */,
+				88F7668B25F187540009082A /* remove_nth_node_from_end.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		889F4CEC25EBC4C300B8010A /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				889F4CED25EBC4DC00B8010A /* reverse_string.swift */,
+				889F4CF125EBC4FB00B8010A /* reverse_integer.swift */,
+				889F4CF425EBC51100B8010A /* first_unique_character_in_string.swift */,
+				889F4CF825EBC6F400B8010A /* valid_palindrome.swift */,
+				889F4CFB25EBC71F00B8010A /* valid_anagram.swift */,
+				889F4CFE25EBEA6C00B8010A /* string_to_integer_atoi.swift */,
+				889F4D0125EBEF0B00B8010A /* implement_strStr.swift */,
+				88912A2125EE3B63005D6323 /* longest_common_prefix.swift */,
+				88912A2425EE4321005D6323 /* count_and_say.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		889F4D0425EC2B4500B8010A /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				889F4D0525EC2B5200B8010A /* merge_sorted_array.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		88B18D0F25EEB7AA002A5A8A /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				88C7732625F2B05C0042A3C3 /* LinkedList */,
+				88B18D1025EEB7BC002A5A8A /* Array */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		88B18D1025EEB7BC002A5A8A /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				88B18D1125EEB7C9002A5A8A /* set_matrix_zeroes.swift */,
+				88B18D1425EEBFC4002A5A8A /* group_anagrams.swift */,
+				88F7668225F1591D0009082A /* longest_palindromic_ substring.swift */,
+				8859B75825F2742D00FE48A9 /* longest_substr_without_repeating_characters.swift */,
+				88C7732225F2A78F0042A3C3 /* increasing_triplet_sequence.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		88C7732625F2B05C0042A3C3 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				88C7732725F2B0680042A3C3 /* add_two_numbers.swift */,
+			);
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,18 +293,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				889F4D0225EBEF0B00B8010A /* implement_strStr.swift in Sources */,
+				88F7668C25F187540009082A /* remove_nth_node_from_end.swift in Sources */,
 				88541A0825EAE6EA00481CD9 /* plus_one.swift in Sources */,
 				88541A0E25EAE71900481CD9 /* two_sum.swift in Sources */,
+				88C7732325F2A78F0042A3C3 /* increasing_triplet_sequence.swift in Sources */,
+				8859B75525F26ED600FE48A9 /* average_of_levels_in_binarytree.swift in Sources */,
 				88541A1125EAE77600481CD9 /* rotate_image.swift in Sources */,
+				88F7668325F1591D0009082A /* longest_palindromic_ substring.swift in Sources */,
 				885419F925EAE47400481CD9 /* best_time_to_buy_and_sell_stock2.swift in Sources */,
+				889F4D0625EC2B5200B8010A /* merge_sorted_array.swift in Sources */,
 				885419E625EAE1E500481CD9 /* main.swift in Sources */,
+				889F4CF525EBC51100B8010A /* first_unique_character_in_string.swift in Sources */,
+				88912A2225EE3B63005D6323 /* longest_common_prefix.swift in Sources */,
+				889F4CF225EBC4FB00B8010A /* reverse_integer.swift in Sources */,
 				88541A0525EAE6C400481CD9 /* intersect_of_two_arrays2.swift in Sources */,
 				88541A0B25EAE6FD00481CD9 /* move_zeroes.swift in Sources */,
+				8859B75925F2742D00FE48A9 /* longest_substr_without_repeating_characters.swift in Sources */,
+				88B18D1525EEBFC4002A5A8A /* group_anagrams.swift in Sources */,
 				885419F025EAE23800481CD9 /* remove_duplicates.swift in Sources */,
+				88912A2525EE4321005D6323 /* count_and_say.swift in Sources */,
+				88F7668625F16B770009082A /* get_intersect_two_linked_list.swift in Sources */,
+				88912A1F25EE3789005D6323 /* set_mismatch.swift in Sources */,
+				88912A2A25EE6624005D6323 /* delete_node_in_list.swift in Sources */,
+				88C7732825F2B0680042A3C3 /* add_two_numbers.swift in Sources */,
 				885419F625EAE44500481CD9 /* Helper.swift in Sources */,
+				889F4CF925EBC6F400B8010A /* valid_palindrome.swift in Sources */,
+				88F7668925F1839E0009082A /* missing_number.swift in Sources */,
 				88541A0225EAE65C00481CD9 /* single_number.swift in Sources */,
+				889F4CFC25EBC71F00B8010A /* valid_anagram.swift in Sources */,
+				884B4B7F25ED901A00DBED1C /* distribute_candies.swift in Sources */,
+				88B18D1225EEB7C9002A5A8A /* set_matrix_zeroes.swift in Sources */,
+				889F4CEE25EBC4DC00B8010A /* reverse_string.swift in Sources */,
 				885419FF25EAE5E200481CD9 /* contains_duplicate.swift in Sources */,
 				885419FC25EAE4F700481CD9 /* rotate_array.swift in Sources */,
+				889F4CFF25EBEA6C00B8010A /* string_to_integer_atoi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
