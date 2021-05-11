@@ -1,7 +1,6 @@
 import Foundation
 
-test(of: "differences") {
-  let str = "Swift Coding Challenges"
-  let out = challenge15(input: str)
-  print(out)
+
+test(of: "Random") {
+  print(challenge20b(number: 16777259))
 }
