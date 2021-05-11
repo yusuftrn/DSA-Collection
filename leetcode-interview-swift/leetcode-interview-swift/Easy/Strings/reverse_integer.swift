@@ -5,8 +5,8 @@
 //  Created by Yusuf Turan on 28.02.2021.
 //
 
-func reverse(_ x: Int) -> Int {
-	var num = x
+func reverse(_ input: Int) -> Int {
+	var num = input
 	var rev = 0
 	while num != 0 {
 		let rem = num % 10
@@ -19,10 +19,10 @@ func reverse(_ x: Int) -> Int {
 	return rev
 }
 
-func reverseWithString(_ x: Int) -> Int {
-	let r = Int(String(String(abs(x)).reversed()))!
-	if r > Int32.max {
+func reverseWithString(_ input: Int) -> Int {
+	let rev = Int(String(String(abs(input)).reversed()))!
+	if rev > Int32.max {
 		return 0
 	}
-	return x >= 0 ? r : -r
+	return input >= 0 ? rev : -rev
 }

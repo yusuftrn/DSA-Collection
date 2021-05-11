@@ -33,6 +33,7 @@ func challenge7B(word: String) -> String {
       }
       seenSpace = true
     } else {
+      
       seenSpace = false
     }
     out.append(c)

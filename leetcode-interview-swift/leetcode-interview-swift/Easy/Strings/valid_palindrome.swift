@@ -5,7 +5,7 @@
 //  Created by Yusuf Turan on 28.02.2021.
 //
 
-//functional
+// functional
 func isPalindromeFunctional(_ s: String) -> Bool {
 	var res = ""
 	s.forEach( {
@@ -17,28 +17,27 @@ func isPalindromeFunctional(_ s: String) -> Bool {
 	return res == String(rev)
 }
 
-//two pointer
-func isPalindrome(_ s: String) -> Bool {
-	if (s.count <= 1) {
+// two pointer
+func isPalindrome(_ str: String) -> Bool {
+	if str.count <= 1 {
 		return true
 	}
-	var left = s.startIndex
-	var right = s.index(before: s.endIndex)
-	
+	var left = str.startIndex
+	var right = str.index(before: str.endIndex)
 	while left < right {
-		if !(s[left].isLetter || s[left].isNumber){
-			left = s.index(after: left)
+		if !(str[left].isLetter || str[left].isNumber) {
+			left = str.index(after: left)
 			continue
 		}
-		if !(s[right].isLetter || s[right].isNumber){
-			right = s.index(before: right)
+		if !(str[right].isLetter || str[right].isNumber) {
+			right = str.index(before: right)
 			continue
 		}
-		if s[left].lowercased() != s[right].lowercased() {
+		if str[left].lowercased() != str[right].lowercased() {
 			return false
 		}
-		left = s.index(after: left)
-		right = s.index(before: right)
+		left = str.index(after: left)
+		right = str.index(before: right)
 	}
 	return true
 }

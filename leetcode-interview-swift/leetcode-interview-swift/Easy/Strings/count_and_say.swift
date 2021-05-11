@@ -5,20 +5,20 @@
 //  Created by Yusuf Turan on 2.03.2021.
 //
 
-//come back and try with solve different way.
-func countAndSay(_ n: Int) -> String {
-	guard n != 1 else {
+// come back and try with solve different way.
+func countAndSay(_ num: Int) -> String {
+	guard num != 1 else {
 		return "1"
 	}
-	let prev = countAndSay(n-1)
+	let prev = countAndSay(num-1)
 	var result: String = ""
 	var count: Int = 1
 	var say = prev.first!
-	for c in prev.dropFirst() {
-		if c != say {
+	for char in prev.dropFirst() {
+		if char != say {
 			result += "\(count)\(say)"
 			count = 0
-			say = c
+			say = char
 		}
 		count += 1
 	}

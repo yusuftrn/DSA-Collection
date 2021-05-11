@@ -11,7 +11,6 @@ func firstUniqChar(_ s: String) -> Int {
 	}
 	guard s.count > 1 else {
 		return 0
-		
 	}
 	var data = Dictionary<Character, Int>()
 	for c in s {
