@@ -1,9 +1,7 @@
 /*
  Challenge 18: Recreate the pow() function
-
  Difficulty: Easy
  Create a function that accepts positive two integers, and raises the first to the power of the second.
-
  Tip: If you name your function myPow() or challenge18(), you’ll be able to use the built-in pow() for your tests. The built-in pow() uses doubles, so you’ll need to typecast.
 
  Sample input and output
