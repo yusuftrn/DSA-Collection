@@ -1,6 +1,6 @@
 import Foundation
 
 
-test(of: "reverse binary") {
-  print([5, 15, 55, 515].challenge37b(count: "1"))
+test(of: "recreate indexOf") {
+  print([1, 2, 3].challenge42(indexOf: 1))
 }
