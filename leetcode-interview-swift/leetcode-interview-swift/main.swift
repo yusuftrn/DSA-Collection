@@ -2,6 +2,5 @@ import Foundation
 
 
 test(of: "reverse binary") {
-  let data = "/Users/yusuf/Desktop/"
-  print(challenge35(in: data))
+  print([5, 15, 55, 515].challenge37b(count: "1"))
 }
