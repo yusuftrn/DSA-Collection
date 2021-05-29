@@ -67,6 +67,8 @@
 		888AFDBC2662C517000F84FB /* minimum_xor_sum_two_array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888AFDBB2662C517000F84FB /* minimum_xor_sum_two_array.swift */; };
 		888AFDBE2662CB58000F84FB /* counter_class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888AFDBD2662CB58000F84FB /* counter_class.swift */; };
 		888AFDC22662D54D000F84FB /* random_2d_point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888AFDC12662D54D000F84FB /* random_2d_point.swift */; };
+		888AFDC42662E5D1000F84FB /* fibonacci_dp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888AFDC32662E5D1000F84FB /* fibonacci_dp.swift */; };
+		888AFDC62662E5D8000F84FB /* remove_duplicates_in_binary_search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888AFDC52662E5D8000F84FB /* remove_duplicates_in_binary_search.swift */; };
 		888D0FF9264AFEDA00312073 /* generate_a_random_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888D0FF8264AFEDA00312073 /* generate_a_random_number.swift */; };
 		888D0FFB264B005E00312073 /* recreate_the_pow_func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888D0FFA264B005E00312073 /* recreate_the_pow_func.swift */; };
 		888D0FFD264B032F00312073 /* swap_two_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888D0FFC264B032F00312073 /* swap_two_number.swift */; };
@@ -184,6 +186,8 @@
 		888AFDBB2662C517000F84FB /* minimum_xor_sum_two_array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minimum_xor_sum_two_array.swift; sourceTree = "<group>"; };
 		888AFDBD2662CB58000F84FB /* counter_class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counter_class.swift; sourceTree = "<group>"; };
 		888AFDC12662D54D000F84FB /* random_2d_point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = random_2d_point.swift; sourceTree = "<group>"; };
+		888AFDC32662E5D1000F84FB /* fibonacci_dp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fibonacci_dp.swift; path = "leetcode-interview-swift/AlgorithmsBook/Fundamentals/fibonacci_dp.swift"; sourceTree = SOURCE_ROOT; };
+		888AFDC52662E5D8000F84FB /* remove_duplicates_in_binary_search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = remove_duplicates_in_binary_search.swift; path = "leetcode-interview-swift/AlgorithmsBook/Fundamentals/remove_duplicates_in_binary_search.swift"; sourceTree = SOURCE_ROOT; };
 		888D0FF8264AFEDA00312073 /* generate_a_random_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generate_a_random_number.swift; sourceTree = "<group>"; };
 		888D0FFA264B005E00312073 /* recreate_the_pow_func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recreate_the_pow_func.swift; sourceTree = "<group>"; };
 		888D0FFC264B032F00312073 /* swap_two_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swap_two_number.swift; sourceTree = "<group>"; };
@@ -413,6 +417,8 @@
 			children = (
 				885AE618265ED69E004FC4B3 /* sqrt_alg_with_newton_method.swift */,
 				885AE61A265EDC29004FC4B3 /* binary_search_algorithm.swift */,
+				888AFDC32662E5D1000F84FB /* fibonacci_dp.swift */,
+				888AFDC52662E5D8000F84FB /* remove_duplicates_in_binary_search.swift */,
 				8854F774265F09DD0092C78A /* histogram.swift */,
 				88259FA72661855000AB5E2E /* gcd_euclid_approach.swift */,
 				88259FA926618BE600AB5E2E /* binomial_coefficient.swift */,
@@ -601,6 +607,7 @@
 				88F7668C25F187540009082A /* remove_nth_node_from_end.swift in Sources */,
 				8861442F26473000002610FE /* string_contains.swift in Sources */,
 				885F9D51265AFF8E00D3FFC3 /* recreate_map.swift in Sources */,
+				888AFDC42662E5D1000F84FB /* fibonacci_dp.swift in Sources */,
 				888AFDBC2662C517000F84FB /* minimum_xor_sum_two_array.swift in Sources */,
 				88541A0825EAE6EA00481CD9 /* plus_one.swift in Sources */,
 				88450320265BDF000053176B /* sum_the_even_repeats.swift in Sources */,
@@ -635,6 +642,7 @@
 				8861442D26473000002610FE /* string_is_rotated.swift in Sources */,
 				886F0806264F021D0039EE0C /* documents_dir.swift in Sources */,
 				88F4331A265149CE00BD6883 /* find_N_smallest.swift in Sources */,
+				888AFDC62662E5D8000F84FB /* remove_duplicates_in_binary_search.swift in Sources */,
 				884AFC8B2651A67F00ED74B6 /* find_the_median.swift in Sources */,
 				885AE61E265EE2EB004FC4B3 /* StandartRandom.swift in Sources */,
 				888AFDBE2662CB58000F84FB /* counter_class.swift in Sources */,
