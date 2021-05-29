@@ -37,5 +37,6 @@ class Histogram {
     for i in 0..<M {
       print(String(format: "%4d", histo[i]), terminator: "")
     }
+    print("\n")
   }
 }
