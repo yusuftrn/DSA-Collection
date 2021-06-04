@@ -11,7 +11,7 @@
 
 import Foundation
 
-class LinkedListNode<T> {
+internal class LinkedListNode<T> {
   var value: T
   var next: LinkedListNode?
   
@@ -20,7 +20,7 @@ class LinkedListNode<T> {
   }
 }
 
-class LinkedList<T> {
+internal class LinkedList<T> {
   var start: LinkedListNode<T>?
   
   func traverseNode() {
@@ -32,7 +32,7 @@ class LinkedList<T> {
   }
 }
 
-func example() {
+func LLexample() {
   let list = LinkedList<Character>()
   var prevNode: LinkedListNode<Character>? = nil
   for letter in "abcdefghijklmnopqrstuvwxyz" {
