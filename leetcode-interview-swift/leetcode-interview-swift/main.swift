@@ -1,7 +1,7 @@
 import Foundation
 
-
 test(of: "Comb Sort") {
-  let arr = [8, 4, 1, 56, 3, -44, 23, -6, 28, 0]
-  print(combSort(arr))
+  let numbers = [1, 2, 3].flatMap { [$0, $0] }
+  print(numbers)
 }
+
