@@ -34,6 +34,7 @@
 		88541A0E25EAE71900481CD9 /* two_sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88541A0D25EAE71900481CD9 /* two_sum.swift */; };
 		88541A1125EAE77600481CD9 /* rotate_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88541A1025EAE77600481CD9 /* rotate_image.swift */; };
 		8854F775265F09DD0092C78A /* histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8854F774265F09DD0092C78A /* histogram.swift */; };
+		8855DA7326702E8D005F77E6 /* arrayChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8855DA7226702E8D005F77E6 /* arrayChallenge.swift */; };
 		885846272660F9C9004D3940 /* zigzag_conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885846262660F9C9004D3940 /* zigzag_conversion.swift */; };
 		885846292660FB16004D3940 /* palindrome_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885846282660FB16004D3940 /* palindrome_number.swift */; };
 		8859B75525F26ED600FE48A9 /* average_of_levels_in_binarytree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8859B75425F26ED600FE48A9 /* average_of_levels_in_binarytree.swift */; };
@@ -162,6 +163,7 @@
 		88541A0D25EAE71900481CD9 /* two_sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = two_sum.swift; sourceTree = "<group>"; };
 		88541A1025EAE77600481CD9 /* rotate_image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotate_image.swift; sourceTree = "<group>"; };
 		8854F774265F09DD0092C78A /* histogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = histogram.swift; sourceTree = "<group>"; };
+		8855DA7226702E8D005F77E6 /* arrayChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrayChallenge.swift; sourceTree = "<group>"; };
 		885846262660F9C9004D3940 /* zigzag_conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zigzag_conversion.swift; sourceTree = "<group>"; };
 		885846282660FB16004D3940 /* palindrome_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindrome_number.swift; sourceTree = "<group>"; };
 		8859B75425F26ED600FE48A9 /* average_of_levels_in_binarytree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = average_of_levels_in_binarytree.swift; sourceTree = "<group>"; };
@@ -366,6 +368,7 @@
 				88BDDD6E266250B900E5055C /* regular_expression_matching.swift */,
 				888AFDBB2662C517000F84FB /* minimum_xor_sum_two_array.swift */,
 				888AFDCB2662EAA2000F84FB /* roman_to_int.swift */,
+				8855DA7226702E8D005F77E6 /* arrayChallenge.swift */,
 			);
 			path = LeetCodeRandom;
 			sourceTree = "<group>";
@@ -712,6 +715,7 @@
 				88F43300265098BC00BD6883 /* chunk_array.swift in Sources */,
 				885AE61B265EDC29004FC4B3 /* binary_search_algorithm.swift in Sources */,
 				8854F775265F09DD0092C78A /* histogram.swift in Sources */,
+				8855DA7326702E8D005F77E6 /* arrayChallenge.swift in Sources */,
 				88F4331C26514E1100BD6883 /* sorting_a_string_by_array_length.swift in Sources */,
 				88912A2A25EE6624005D6323 /* delete_node_in_list.swift in Sources */,
 				88C7732825F2B0680042A3C3 /* add_two_numbers.swift in Sources */,
