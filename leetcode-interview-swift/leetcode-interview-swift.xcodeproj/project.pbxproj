@@ -36,6 +36,7 @@
 		8854F775265F09DD0092C78A /* histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8854F774265F09DD0092C78A /* histogram.swift */; };
 		8855DA7326702E8D005F77E6 /* arrayChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8855DA7226702E8D005F77E6 /* arrayChallenge.swift */; };
 		885722972677A40900E3433E /* DateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885722962677A40900E3433E /* DateModel.swift */; };
+		8857229C2677E60200E3433E /* accumulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8857229B2677E60200E3433E /* accumulator.swift */; };
 		885846272660F9C9004D3940 /* zigzag_conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885846262660F9C9004D3940 /* zigzag_conversion.swift */; };
 		885846292660FB16004D3940 /* palindrome_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885846282660FB16004D3940 /* palindrome_number.swift */; };
 		8859B75525F26ED600FE48A9 /* average_of_levels_in_binarytree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8859B75425F26ED600FE48A9 /* average_of_levels_in_binarytree.swift */; };
@@ -166,6 +167,7 @@
 		8854F774265F09DD0092C78A /* histogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = histogram.swift; sourceTree = "<group>"; };
 		8855DA7226702E8D005F77E6 /* arrayChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrayChallenge.swift; sourceTree = "<group>"; };
 		885722962677A40900E3433E /* DateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateModel.swift; sourceTree = "<group>"; };
+		8857229B2677E60200E3433E /* accumulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accumulator.swift; sourceTree = "<group>"; };
 		885846262660F9C9004D3940 /* zigzag_conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zigzag_conversion.swift; sourceTree = "<group>"; };
 		885846282660FB16004D3940 /* palindrome_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindrome_number.swift; sourceTree = "<group>"; };
 		8859B75425F26ED600FE48A9 /* average_of_levels_in_binarytree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = average_of_levels_in_binarytree.swift; sourceTree = "<group>"; };
@@ -471,6 +473,7 @@
 				888AFDBD2662CB58000F84FB /* counter_class.swift */,
 				888AFDC12662D54D000F84FB /* random_2d_point.swift */,
 				885722962677A40900E3433E /* DateModel.swift */,
+				8857229B2677E60200E3433E /* accumulator.swift */,
 			);
 			path = 1.2;
 			sourceTree = "<group>";
@@ -686,6 +689,7 @@
 				885BC9F0266A2CF7002C5BF2 /* bubble_sort.swift in Sources */,
 				886F0806264F021D0039EE0C /* documents_dir.swift in Sources */,
 				88F4331A265149CE00BD6883 /* find_N_smallest.swift in Sources */,
+				8857229C2677E60200E3433E /* accumulator.swift in Sources */,
 				888AFDCA2662E65C000F84FB /* remove_duplicates_in_binary_search.swift in Sources */,
 				882A8709266ACFD5004D794D /* combo_sort.swift in Sources */,
 				884AFC8B2651A67F00ED74B6 /* find_the_median.swift in Sources */,
