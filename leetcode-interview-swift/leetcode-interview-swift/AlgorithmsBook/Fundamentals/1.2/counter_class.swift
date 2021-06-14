@@ -7,7 +7,7 @@
 
 import Foundation
 
-public final class Counter {
+public final class Counter: Comparable {
   private var name: String
   private var count: Int = 0
   
@@ -25,5 +25,13 @@ public final class Counter {
   
   public func toString() -> String {
     return String(count) + " " + name
+  }
+  
+  public static func == (lhs: Counter, rhs: Counter) -> Bool {
+    return lhs.count == rhs.count
+  }
+  
+  public static func < (lhs: Counter, rhs: Counter) -> Bool {
+    return rhs.count < lhs.count
   }
 }

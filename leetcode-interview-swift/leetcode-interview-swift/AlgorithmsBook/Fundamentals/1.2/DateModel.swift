@@ -9,11 +9,11 @@ class DateModel: Comparable {
   
   //const days
   let DAYS: [Int] = [0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-
+  
   let month: Int
   let day: Int
   let year: Int
-
+  
   init(month: Int, day: Int, year: Int) {
     self.month = month
     self.day = day
@@ -56,10 +56,6 @@ class DateModel: Comparable {
     }
   }
   
-  static func == (lhs: DateModel, rhs: DateModel) -> Bool {
-    return (lhs.day == rhs.day) && (lhs.month == rhs.month) && (lhs.year == rhs.year)
-  }
-  
   public func isAfter(_ otherDay: DateModel) -> Bool {
     return DateModel(month: month, day: day, year: year) > otherDay
   }
@@ -70,6 +66,36 @@ class DateModel: Comparable {
   
   public func isEquals(_ otherDay: DateModel) -> Bool {
     return DateModel(month: month, day: day, year: year) == otherDay
+  }
+  
+  // Sakamoto's algorithm
+  public func dayOfWeek() -> String {
+    var localYear = year
+    let table: [Int] = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4]
+    if month < 3 { localYear -= 1}
+    let today = (localYear + localYear/4 - localYear/100 + localYear/400 + table[month-1] + day) % 7
+    switch today {
+    case 1:
+      return "Monday"
+    case 2:
+      return "Tuesday"
+    case 3:
+      return "Wednesday"
+    case 4:
+      return "Thursday"
+    case 5:
+      return "Friday"
+    case 6:
+      return "Saturday"
+    case 7:
+      return "Sunday"
+    default:
+      return "UNDEFINED"
+    }
+  }
+  
+  static func == (lhs: DateModel, rhs: DateModel) -> Bool {
+    return (lhs.day == rhs.day) && (lhs.month == rhs.month) && (lhs.year == rhs.year)
   }
   
   static func < (lhs: DateModel, rhs: DateModel) -> Bool {
