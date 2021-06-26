@@ -73,6 +73,7 @@
 		886F0806264F021D0039EE0C /* documents_dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886F0805264F021D0039EE0C /* documents_dir.swift */; };
 		886F0808264F05130039EE0C /* new_jpegs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886F0807264F05130039EE0C /* new_jpegs.swift */; };
 		886F080A264F10BB0039EE0C /* copy_recursively.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886F0809264F10BB0039EE0C /* copy_recursively.swift */; };
+		88755A56268520C700266223 /* max_palin_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88755A55268520C700266223 /* max_palin_number.swift */; };
 		887FCE2A266D0808004F23B9 /* insertion_sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887FCE29266D0808004F23B9 /* insertion_sort.swift */; };
 		888AFDBC2662C517000F84FB /* minimum_xor_sum_two_array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888AFDBB2662C517000F84FB /* minimum_xor_sum_two_array.swift */; };
 		888AFDBE2662CB58000F84FB /* counter_class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888AFDBD2662CB58000F84FB /* counter_class.swift */; };
@@ -104,6 +105,7 @@
 		88BDDD6F266250B900E5055C /* regular_expression_matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDDD6E266250B900E5055C /* regular_expression_matching.swift */; };
 		88C7732325F2A78F0042A3C3 /* increasing_triplet_sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C7732225F2A78F0042A3C3 /* increasing_triplet_sequence.swift */; };
 		88C7732825F2B0680042A3C3 /* add_two_numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C7732725F2B0680042A3C3 /* add_two_numbers.swift */; };
+		88E2E4522687B91A00DD189D /* StackLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E2E4512687B91A00DD189D /* StackLinkedList.swift */; };
 		88F43300265098BC00BD6883 /* chunk_array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F432FF265098BC00BD6883 /* chunk_array.swift */; };
 		88F4330C2650A36C00BD6883 /* word_frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4330B2650A36C00BD6883 /* word_frequency.swift */; };
 		88F4330E2650A89200BD6883 /* find_duplicate_filenames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F4330D2650A89200BD6883 /* find_duplicate_filenames.swift */; };
@@ -206,6 +208,7 @@
 		886F0805264F021D0039EE0C /* documents_dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = documents_dir.swift; sourceTree = "<group>"; };
 		886F0807264F05130039EE0C /* new_jpegs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_jpegs.swift; sourceTree = "<group>"; };
 		886F0809264F10BB0039EE0C /* copy_recursively.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copy_recursively.swift; sourceTree = "<group>"; };
+		88755A55268520C700266223 /* max_palin_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = max_palin_number.swift; sourceTree = "<group>"; };
 		887FCE29266D0808004F23B9 /* insertion_sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertion_sort.swift; sourceTree = "<group>"; };
 		888AFDBB2662C517000F84FB /* minimum_xor_sum_two_array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minimum_xor_sum_two_array.swift; sourceTree = "<group>"; };
 		888AFDBD2662CB58000F84FB /* counter_class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counter_class.swift; sourceTree = "<group>"; };
@@ -237,6 +240,7 @@
 		88BDDD6E266250B900E5055C /* regular_expression_matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regular_expression_matching.swift; sourceTree = "<group>"; };
 		88C7732225F2A78F0042A3C3 /* increasing_triplet_sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = increasing_triplet_sequence.swift; sourceTree = "<group>"; };
 		88C7732725F2B0680042A3C3 /* add_two_numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add_two_numbers.swift; sourceTree = "<group>"; };
+		88E2E4512687B91A00DD189D /* StackLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackLinkedList.swift; sourceTree = "<group>"; };
 		88F432FF265098BC00BD6883 /* chunk_array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chunk_array.swift; sourceTree = "<group>"; };
 		88F4330B2650A36C00BD6883 /* word_frequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = word_frequency.swift; sourceTree = "<group>"; };
 		88F4330D2650A89200BD6883 /* find_duplicate_filenames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = find_duplicate_filenames.swift; sourceTree = "<group>"; };
@@ -275,6 +279,7 @@
 			children = (
 				8814D27F267935F1008C2207 /* queue_stack.swift */,
 				8814D283267942A9008C2207 /* fixed_capacity_stack_string.swift */,
+				88E2E4512687B91A00DD189D /* StackLinkedList.swift */,
 			);
 			path = 1.3;
 			sourceTree = "<group>";
@@ -386,6 +391,7 @@
 				888AFDBB2662C517000F84FB /* minimum_xor_sum_two_array.swift */,
 				888AFDCB2662EAA2000F84FB /* roman_to_int.swift */,
 				8855DA7226702E8D005F77E6 /* arrayChallenge.swift */,
+				88755A55268520C700266223 /* max_palin_number.swift */,
 			);
 			path = LeetCodeRandom;
 			sourceTree = "<group>";
@@ -723,6 +729,7 @@
 				88259FAA26618BE600AB5E2E /* binomial_coefficient.swift in Sources */,
 				88912A2525EE4321005D6323 /* count_and_say.swift in Sources */,
 				88450324265BE5C50053176B /* reverse_linked_list.swift in Sources */,
+				88E2E4522687B91A00DD189D /* StackLinkedList.swift in Sources */,
 				8862B4C4264A017E00706A06 /* reverse_the_words.swift in Sources */,
 				886F0802264EFD740039EE0C /* print_last_lines.swift in Sources */,
 				888D0FFD264B032F00312073 /* swap_two_number.swift in Sources */,
@@ -755,6 +762,7 @@
 				88F48DD5264DB80C0096C538 /* calculate_square_root_by_hand.swift in Sources */,
 				88F48DD3264DB6300096C538 /* add_numbers_inside_string.swift in Sources */,
 				88F7668925F1839E0009082A /* missing_number.swift in Sources */,
+				88755A56268520C700266223 /* max_palin_number.swift in Sources */,
 				88541A0225EAE65C00481CD9 /* single_number.swift in Sources */,
 				889F4CFC25EBC71F00B8010A /* valid_anagram.swift in Sources */,
 				884B4B7F25ED901A00DBED1C /* distribute_candies.swift in Sources */,
