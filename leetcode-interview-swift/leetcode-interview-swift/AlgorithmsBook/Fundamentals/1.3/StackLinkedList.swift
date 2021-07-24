@@ -42,4 +42,11 @@ public class StackLL {
     count -= 1
     return tempData
   }
+  
+  public func peek() -> Int {
+    guard let first = first else {
+      fatalError("Stack is empty")
+    }
+    return first.data
+  }
 }
