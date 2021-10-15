@@ -1,14 +1,27 @@
 import Foundation
 
-
-func firstLast(_ arr: [Any]) -> [Any] {
-  var new = [Any]()
-  let data = arr.sorted { $0 > $1 }
+func insertionSort(_ arr: inout [Int]) -> [Int] {
+  // eleman sayımız
+  let count = arr.count
   
-  new.append(data[0])
-  new.append(data[data.count - 1])
-  
-  return new
+  // dizideki ikinci elemandan başlayarak iterasyon yap
+  for index in 1..<count {
+    
+    // ikinci elamanı önceki ile kıyaslayacağımız için onun değerini hafızada tutalım
+    let value = arr[index]
+    var position = index
+    // elimizdeki veriyi önceki ile kıyaslayalım
+    while position > 0 && arr[position - 1] > value {
+      // eğer önceki değer elimizdeki value'den büyükse yer değişimi yapalım
+      arr[position] = arr[position - 1]
+      position -= 1
+    }
+    arr[position] = value
+  }
+  return arr
 }
 
-print(firstLast([1, 2, 3, 5, 4, 6, 199, 2]))
+var data = [3, 22, 34, 5, 1, 11, 23]
+print(insertionSort(&data))
+
+/// OUTPUT: [1, 3, 5, 11, 22, 23, 34]
